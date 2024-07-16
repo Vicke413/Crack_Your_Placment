@@ -61,22 +61,6 @@ class Solution {
 public:
 
 
-void dfs(int i,int j, vector<vector<int>>& matrix , int n,int m)
-{
-
-    for(int k=0;k<n;k++)
-    {
-        if(matrix[k][j]!=0)
-        matrix[k][j]=-99999;
-    }
-
-    for(int k=0;k<m;k++)
-    {
-        if(matrix[i][k]!=0)
-        matrix[i][k]=-99999;
-    }
-
-}
 
 
     void setZeroes(vector<vector<int>>& matrix) {
